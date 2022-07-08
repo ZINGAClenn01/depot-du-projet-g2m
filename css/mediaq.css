@@ -445,8 +445,8 @@
 .rond-jaune{
     border: solid 1.5vw #F78A22;
     border-radius: 50%;
-    width: 20vw;
-    height: 21vh; 
+    width: 22vw;
+    height: 20vh; 
     margin-left: 10vw;
     
 }
@@ -495,7 +495,7 @@
 .section5{
     background-color: rgb(206, 206, 206);
     width: 98vw;
-    height: 150vh;
+    height: 155vh;
     margin-top: 2vw;
     display: flex;
     justify-content: center;
@@ -582,6 +582,20 @@
     align-items: center;
     position: relative;
     margin-top: 10vw;
+}
+
+.text-project span{
+    font-size: 4vw;
+    line-height: 8vw;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.text-project h2{
+    font-size: 6vw;
+    line-height: 8vw;
+    width: 80%;
+    text-transform: uppercase;
 }
 
 .text-project{
@@ -778,7 +792,18 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
 
 }
-
+.left-temoignage h2{
+    width: 50vw;
+    margin-left: -6vw;
+    margin-top: 2vw;
+}
+.left-temoignage p{
+    width: 85vw;
+    line-height: 5vw;
+    font-size: 3vw;
+    margin-left: -6vw;
+    margin-top: 2vw;
+}
 
 .services-respo{
     display: inline;
@@ -792,7 +817,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 
 .image-homme{
-    width: 50%;
+    width: 45vw;
     margin-right: 40%;
     margin-top: 20%;
 }
@@ -812,8 +837,6 @@ input:checked + .slide-container .nav label { display: block; }
 
 .boxe4-respo{
     display: inline;
-    height: 5vh;
-    
 }
 
 
@@ -867,45 +890,59 @@ input:checked + .slide-container .nav label { display: block; }
     display: none;
 }
 .abonnement-respo{
-    height: 60vh;
+    height: 70vh;
     width: 80%;
     background-color: gray;
     margin: auto;
-    margin-top: 1vw;
+    margin-top: 8vw;
     border-radius: 10px;
     display: flex;
     align-items: center;
 }
 .button-abon{
     width: 120%; 
-    height: 7vh; 
+    height: 9vh; 
     background-color: #F78A22;
     border: none;
     margin-left: 5%;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 2vw;
 }
 .votre-email{
-    height: 7vh; 
+    height: 9vh; 
     width: 120%;
+    
     border-radius: 4px;
     transform: translate(-1vw, -1vw);
     border: none;
 }
 .fils-abon{
-    text-align: center;
-    margin-left: 10%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 3vw;
     width: 140%;
+    line-height: 5vw;
 }
 .fils-abon h2{
     margin-right: 70%;
+    font-size: 20vw;
+    font-weight: bold;
+    width: 50vw;
+    height: 8vh;
+    margin-left: 5%;
+}
+.fils-abon p{
+    margin-right: 70%;
+    width: 50vw;
+    margin-left: 5%;
 }
 
 
 .section7{
-    height: 150vh;
+    height: 200vh;
     width: 100%;
-    margin-top: 60vw;
+    margin-top: 90vw;
     background-image: url(../images/pattern.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -915,11 +952,11 @@ input:checked + .slide-container .nav label { display: block; }
 
 
 .formular{
-    width: 60%;
-    height: 120vh;
+    width: 80%;
+    height: 160vh;
     background-color: white;
     margin: auto;
-    margin-top: 10vw;
+    margin-top: 15vw;
     border-radius: 2vw;
     display: block;
     align-items: center;
@@ -938,27 +975,39 @@ input:checked + .slide-container .nav label { display: block; }
 .contact{
     width: 100%;
     height: 25vh;
-    margin-top: 2vw;
+    margin-top: 8vw;
     text-align: center;
 }
 
 .contact span{
-    font-size: 2vw;
+    font-size: 4vw;
+    text-transform: uppercase;
+    margin-top: 15vw;
 }
 
 .contact h2{
-    font-size: 3vw;
+    font-size: 8vw;
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vw;
 }
 
 .contact p{
-    margin-top: 2%;
+    margin-top: 1%;
+    font-weight: 500;
+    width: 60%;
+    text-align: center;
+    margin: auto;
 }
 
 input{
-    height: 7vh; 
-    width: 120%;
+    height: 8vh; 
+    width: 100%;
     border-radius: 4px;
     /* border: black; */
+    border: solid 0.1vw gray;
+    margin: auto;
 }
 label{
     margin-bottom: 3%;
@@ -970,14 +1019,17 @@ label{
     height: 60vh;
     display: block;
     flex-wrap: wrap;
+    margin-top: 30vw;
+    margin-left: 8vw;
 }
 
-.mom-message{
+/* .mom-message{
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 100vw;
     margin-left: 1vw;
-}
+} */
+
 
 .champs{
     width: 100%;
@@ -992,27 +1044,46 @@ label{
     justify-content: space-between;
     height: 20vh;
 }
+.first .nom{
+    margin-bottom: 2vw;
+}
+.first .mail{
+    margin-top: 2vw;
+}
+.first .prenom{
+    margin-top: 4vw;
+}
+.first .services{
+    margin-top: 4vw;
+}
+
 
 label{
     display: none;
 }
 
 .btn{
-    margin-top: 5%;
-    margin-right: 45%;
+    margin-top: 10%;
+    margin-left: 10vw;
     background-color: rgb(255, 0, 157);
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    height: 7vh;
-    width: 40%;
+    height: 8vh;
+    width: 50%;
+}
+
+.message input{
+    margin-left: -9.5vw;
+     width: 64.5vw;
+      height: 22vh;
 }
   
 
 .boxe1{
     width: 100%;
     flex-direction: column;
-    
+    height: 100vh;
 }
 
 .two{
@@ -1039,7 +1110,7 @@ label{
 }
 
 .fin{
-    height: 10vh;
+    height: 15vh;
     background-color: #333;
     margin-top: -1vw;
     
