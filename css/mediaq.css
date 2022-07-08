@@ -237,7 +237,7 @@
 .section2{
     height: 120vh;
     margin-top: 8vw;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -245,13 +245,14 @@
 
 .img-left{
     position: relative;
-    height: 60vh;
-    width: 90%;
+    height: 50vh;
+    width: 80vw;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20vw;
+    margin-left: 10vw;
 }
 
 
@@ -259,9 +260,9 @@
     background-image: url(../images/Group\ 15.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 120%;
+    width: 100vw;
     height: 50vh;
-    left: -8vw;
+    left: -15vw;
     position: absolute;
     top: 3vw;
 }
@@ -269,8 +270,8 @@
 .carre-bout-rond{
     background-color: gray;
     opacity: 0.3;
-    width: 100%;
-    height: 50vh;
+    width: 90vw;
+    height: 45vh;
     border-radius: 4%;
 }
 
@@ -298,21 +299,21 @@
 
 
 .icone-rond-jaune{
-    width: 44.71px;
-     height: 44.71px;
+    width: 60.71px;
+     height: 60.71px;
      margin-top: 2vw;
-     margin-left: 12vw;
+     margin-left: 8vw;
 }
 
 
 .icone-rond-rose{
-    margin-left: 6vw;
+    margin-left: 5.5vw;
     margin-top: 5vw;
 }
 
 
 .icone-rond-bleu{
-    margin-left: 8vw;
+    margin-left: 7vw;
     margin-top: 7vw;
 }
 
@@ -363,27 +364,11 @@
      margin-top: 5vw;
 }
 
-.pti-rond-bleu{
-    border: solid 5px rgb(47, 47, 190);
-    border-radius: 50%;
-    width: 60px;height: 60px; 
-    margin-top: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-.pti-rond-rose{
-    border: solid 5px rgb(255, 0, 157);
-    border-radius: 50%;
-    width: 60px;height: 60px; 
-    margin-top: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
 
 .pti-rond-jaune{
     border: solid 5px #F78A22;
     border-radius: 50%;
-    width: 60px;height: 60px; 
+    width: 80px;height: 60px; 
     margin-top: 30px;
     margin-top: 30px;
     margin-left: 30px;
@@ -464,8 +449,8 @@
 .rond-jaune{
     border: solid 2vw #F78A22;
     border-radius: 50%;
-    width: 35vw;
-    height: 20vh; 
+    width: 28vw;
+    height: 14vh; 
     margin-left: 10vw;
     display: flex;
     align-items: center;
@@ -482,7 +467,7 @@
 }
 
 .rond-icone{
-    margin-right: 28vw;
+    margin-right: 26vw;
 }
 
 
@@ -498,7 +483,7 @@
 
 .section4-respnsive{
     display: inline;
-    background-color: red;
+    
 }
 
 .div-right{
@@ -515,7 +500,7 @@
 .section5{
     background-color: rgb(206, 206, 206);
     width: 98vw;
-    height: 155vh;
+    height: 80vh;
     margin-top: 2vw;
     display: flex;
     justify-content: center;
@@ -543,8 +528,8 @@
 .section5{
     background-color: rgb(206, 206, 206);
     width: 100%;
-    height: 380vh;
-    margin-top: 25%;
+    height: 250vh;
+    margin-top: 20%;
     border-radius: 5vw;
     
 }
@@ -593,7 +578,7 @@
 
 .left-raison{ 
     width: 100%;
-    margin-top: -20vw;
+    margin-top: -25vw;
 }
 
 .rigth-carre{
@@ -652,8 +637,8 @@
 }
 .left-end{
     width: 100%;
-    height: 140vh;
-    margin-top: 25vw;
+    height: 150vh;
+    margin-bottom: -102vw;
 }
 span{
     color: #F78A22;
@@ -1131,7 +1116,7 @@ label{
 
 .fin{
     height: 15vh;
-    background-color: #333;
+    background-color: #56597A;
     margin-top: -1vw;
     
 }
@@ -1164,7 +1149,7 @@ hr{
 }
 
 .footer{
-    background-color: #333;
+    background-color: #56597A;
     height: 110vh;
 }
 
