@@ -945,9 +945,9 @@ input:checked + .slide-container .nav label { display: block; }
 
 
 .section7{
-    height: 200vh;
+    height: 180vh;
     width: 100%;
-    margin-top: 90vw;
+    margin-top: -15vw;
     background-image: url(../images/pattern.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -958,7 +958,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .formular{
     width: 80%;
-    height: 160vh;
+    height: 130vh;
     background-color: white;
     margin: auto;
     margin-top: 15vw;
