@@ -316,7 +316,7 @@ li a{
 
 /* troisieme partie */
 .section3{
-    margin-top: 10%;
+    margin-top: -1%;
     height: 60vh;
     width: 100%;
 }
@@ -430,7 +430,7 @@ li a{
 .section5{
     background-color: rgb(206, 206, 206);
     width: 98%;
-    height: 200vh;
+    height: 220vh;
     margin-top: 10vw;
     border-radius: 5%;
     margin: auto;

@@ -50,7 +50,7 @@
         background-image: url(../images/pattern.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 125vh;
+        height: 95vh;
         width: 100vw;
     }
     
@@ -136,7 +136,7 @@
         justify-content: space-around;
         width: 70vw;
         margin-left: 10vw;
-        margin-bottom: 25vw;
+        margin-bottom: 70vw;
     }
     .left p{
         width: 65vw;
@@ -195,8 +195,8 @@
     }
 
     .petit-rond{
-        width: 13vw;
-        height: 8vh;
+        width: 14vw;
+        height: 6.5vh;
         margin: 2vw;
         border: solid white 0.1vw;
         border-radius: 50%;
@@ -205,6 +205,7 @@
     .btn-rose{
         display: flex;
         width: 70vw;
+        margin-bottom: 10vw;
         align-items: center;
         justify-content: space-between;
     }
@@ -321,7 +322,7 @@
 /* troisieme partie */
 .section3{
     margin-top: 15vw;
-    height: 280vh;
+    height: 225vh;
     width: 100vw;
 }
 
@@ -346,7 +347,7 @@
 
 .ce-que{
     color: #F78A22;
-    margin-top: 10vw;
+    margin-top: 5vw;
     width: 100vw;
     font-size: 3vw;
     line-height: 4vw;
@@ -378,7 +379,7 @@
 
 .mother{
     flex-direction: column;
-    height: 280vh;
+    height: 225vh;
     
 }
 
@@ -895,8 +896,8 @@ input:checked + .slide-container .nav label { display: block; }
     display: none;
 }
 .abonnement-respo{
-    height: 70vh;
-    width: 80%;
+    height: 60vh;
+    width: 90%;
     background-color: gray;
     margin: auto;
     margin-top: 8vw;
@@ -909,10 +910,10 @@ input:checked + .slide-container .nav label { display: block; }
     height: 9vh; 
     background-color: #F78A22;
     border: none;
-    margin-left: 5%;
+    margin-left: 3%;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 2vw;
+    margin-top: 4vw;
 }
 .votre-email{
     height: 9vh; 
@@ -947,7 +948,7 @@ input:checked + .slide-container .nav label { display: block; }
 .section7{
     height: 180vh;
     width: 100%;
-    margin-top: -15vw;
+    margin-top: -30vw;
     background-image: url(../images/pattern.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -961,7 +962,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 130vh;
     background-color: white;
     margin: auto;
-    margin-top: 15vw;
+    margin-top: 10vw;
     border-radius: 2vw;
     display: block;
     align-items: center;
