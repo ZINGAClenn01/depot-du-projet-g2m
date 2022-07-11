@@ -948,7 +948,7 @@ input:checked + .slide-container .nav label { display: block; }
 .section7{
     height: 150vh;
     width: 100%;
-    margin-top: -20vw;
+    margin-top: -5vw;
     background-image: url(../images/pattern.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1175,6 +1175,32 @@ hr{
     width: 50vw;
     height: 30vh;
     margin-left: -34vw;
+}
+
+.menu-mobile,.navbar-mobile{
+    display: block;
+    position: relative;
+    top: 5vw;
+}
+.navbar-mobile{
+    position: absolute;
+    background: white;
+    width: 100%;
+    top: -100%;
+    transition: top 1.4s;
+    z-index: 1
+}
+.navbar-mobile .list a{
+    border-bottom: solid 1px;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.active-menu{
+    top: 10%;
+    transition: top 1.4s;
 }
 }
     

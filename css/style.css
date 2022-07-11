@@ -77,7 +77,7 @@ nav{
 
 .buton-menu{
     width: 2vw;
-    display: none;
+    display: none
 }
 
 li a{
@@ -855,7 +855,7 @@ label{
 }
 
 .footer{
-    background-color: #333;
+    background-color: #5659A7;
 }
 
 
@@ -867,7 +867,12 @@ label{
 
 .fin{
     height: 5vh;
-    background-color: #333;
+    background-color: #5659A7;
     margin-top: 5%;
     
+}
+
+.menu-mobile,
+.navbar-mobile{
+	display: none;
 }

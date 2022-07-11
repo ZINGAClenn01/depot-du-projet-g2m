@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaq.css">
     <script src="https://kit.fontawesome.com/b6e281d241.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="htpp://cdnjs.cloudflare.com/ajax/libsmeyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href='htpps://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
 </head>
 <body>
     <header class="contenair">
@@ -25,10 +27,28 @@
                 <a class="btn-devis centre">
                     Devis
                 </a>
-                <a class="francais-texte" href="">Francais<i class="fa-solid fa-language"></i>
-                    <i class="fa-solid fa-chevron-down"></i></a>
+               
+                    <form style="border: none; background-color: transparent;" class="francais-texte" id="languages">
+                        <select onchange="window.location.href= this.form.URL.options[this.form.URL.selectedIndex].value" name="URL">
+                        <option value="Page.php?lan=FR">Français</option>
+                        <option value="Page.php?lan=NL">Nederlands</option>
+                        <option value="Page.php?lan=EN">English</option>
+                        </select>
+                    </form>
                 </a>    
-                <div><img class="buton-menu" src="./icones/buton-menu-removebg-preview.png" alt=""></div>
+                <div class="menu-mobile">
+                    <img class="burger xy-center"  src="./icones/buton-menu-removebg-preview.png" width="30">
+                </div>
+                <nav class="navbar-mobile">
+                    <ul class="">
+                        <li class="list"><a href="#">A propos</a></li>
+                        <li class="list"><a href="#">Services</a></li>
+                        <li class="list"><a href="#">Missions</a></li>
+                        <li class="list"><a href="#">Projets</a></li>
+                        <li class="list"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                
            </div>
            
         </nav>
@@ -560,7 +580,23 @@
             <div class="gauche">Politique de confidentialité</div>
             <br><br><br><br><br>
         </div>
+        <img src="./icones/Group 1.png" alt="">
     
+
+        <script type="text/javascript">
+            var close = document.getElementById('croix'),
+                menu  = document.querySelector('.burger'),
+                nav   = document.querySelector('.navbar-mobile');
+            menu.onclick = function () {
+                nav.classList.toggle('active-menu')
+    
+                if (nav.classList.contains('active-menu')) {
+                    menu.src = "./icones/Group 1.png";
+                }else{
+                    menu.src = "./icones/buton-menu-removebg-preview.png";
+                }
+            }
+        </script>
 
     </section>
 
