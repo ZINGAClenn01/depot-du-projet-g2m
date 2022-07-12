@@ -195,7 +195,7 @@
     }
 
     .petit-rond{
-        width: 14vw;
+        width: 12.5vw;
         height: 6.5vh;
         margin: 2vw;
         border: solid white 0.1vw;
@@ -814,8 +814,8 @@ input:checked + .slide-container .nav label { display: block; }
 .services-respo{
     display: inline;
     margin-top: 25vw;
-    font-size: 5vw;
-    margin-left: -32vw;
+    font-size: 6vw;
+    margin-left: -20vw;
     margin-bottom: -12vw;
 }
 .servicess{
@@ -823,8 +823,8 @@ input:checked + .slide-container .nav label { display: block; }
 }
 
 .image-homme{
-    width: 42vw;
-    margin-right: 40%;
+    width: 100vw;
+    margin-right: 10%;
     margin-top: 20%;
 }
 
@@ -949,9 +949,8 @@ input:checked + .slide-container .nav label { display: block; }
     height: 150vh;
     width: 100%;
     margin-top: -5vw;
-    background-image: url(../images/pattern.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: #56597A;
+  
     
 }
 
